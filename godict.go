@@ -59,7 +59,7 @@ func (d *dictionary) Do(ctx context.Context, fn func(pattern string)) error {
 		})
 	}
 
-	return nil
+	return eg.Wait()
 }
 
 func (d *dictionary) do(ctx context.Context, open func() (io.ReadCloser, error), fn func(pattern string)) error {
