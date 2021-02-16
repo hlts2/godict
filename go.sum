@@ -1,6 +1,2 @@
-github.com/hlts2/errgroup v0.0.0-20210122035313-d3fd58bdcc16 h1:9uS0qo6Y8rOFm1AIJDMzM7hRfF57Uo6Op4EtprNiHFI=
-github.com/hlts2/errgroup v0.0.0-20210122035313-d3fd58bdcc16/go.mod h1:tSdz7RySRvbJ8eDlcJ7teVSmHYqTcZR7aQCxow2HqSM=
-github.com/rakyll/statik v0.1.7 h1:OF3QCZUuyPxuGEP7B4ypUa7sB/iHtqOTDYZXGM8KOdQ=
-github.com/rakyll/statik v0.1.7/go.mod h1:AlZONWzMtEnMs7W4e/1LURLiI49pIMmp6V9Unghqrcc=
 golang.org/x/sync v0.0.0-20201207232520-09787c993a3a h1:DcqTD9SDLc+1P/r1EmRBwnVsrOwW+kk2vWf9n+1sGhs=
 golang.org/x/sync v0.0.0-20201207232520-09787c993a3a/go.mod h1:RxMgew5VJxzue5/jJTE5uejpjVlOe/izrB70Jof72aM=
