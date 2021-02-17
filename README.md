@@ -18,6 +18,7 @@ go get github.com/hlts2/godict
 
 ## Example
 
+```go
 package main
 
 import (
@@ -44,6 +45,7 @@ func main() {
 		log.Fatal(err)
 	}
 }
+```
 
 
 ## Contribution
