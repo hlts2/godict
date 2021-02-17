@@ -40,6 +40,7 @@ func New(opts ...Option) (Dictionary, error) {
 
 func (d *dictionary) Do(ctx context.Context, fn func(pattern string)) error {
 	opens := make([]func() (io.ReadCloser, error), 0, len(d.paths)+1)
+
 	opens = append(opens, func() (io.ReadCloser, error) {
 		return assets.Root.Open(defaultDictionaryName)
 	})
